@@ -15,8 +15,10 @@
     "criteria": {
       "minecraft:frozen_river": "2025-08-17 01:35:08 +0000",
       "minecraft:windswept_hills": "2025-08-17 01:48:22 +0000",
+      "minecraft:river": "2025-08-17 04:34:50 +0000",
       "minecraft:snowy_plains": "2025-08-16 23:46:13 +0000",
       "minecraft:snowy_taiga": "2025-08-17 01:43:53 +0000",
+      "minecraft:swamp": "2025-08-17 04:32:26 +0000",
       "minecraft:frozen_ocean": "2025-08-17 01:48:20 +0000",
       "minecraft:snowy_beach": "2025-08-17 01:46:36 +0000",
       "minecraft:windswept_gravelly_hills": "2025-08-17 01:12:43 +0000",
@@ -1995,15 +1997,117 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-08-17 04:32:38 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:main/common_blueprint": {
+    "criteria": {
+      "0": "2025-08-17 04:32:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_hoe": "2025-08-17 04:32:55 +0000"
+    },
+    "done": true
+  },
   "ironchest:recipes/decorations/chests/diamond_obsidian_chest": {
     "criteria": {
       "has_obsidian": "2025-08-17 04:22:16 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-08-17 04:32:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_hoe": "2025-08-17 04:32:55 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/combat/m_1911_smithing": {
+    "criteria": {
+      "has_m_1911_blueprint": "2025-08-17 04:32:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-08-17 04:33:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-08-17 04:32:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-08-17 04:30:13 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/m_1911_blueprint": {
+    "criteria": {
+      "has_m_1911_blueprint": "2025-08-17 04:32:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-08-17 04:33:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-08-17 04:32:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-08-17 04:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-08-17 04:32:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2025-08-17 04:22:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-08-17 04:32:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-08-17 04:33:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-08-17 04:32:37 +0000"
     },
     "done": true
   },
