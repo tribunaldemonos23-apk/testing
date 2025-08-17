@@ -232,6 +232,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-08-17 00:54:15 +0000",
+      "minecraft:skeleton": "2025-08-17 05:18:05 +0000",
       "minecraft:magma_cube": "2025-08-17 04:19:12 +0000",
       "minecraft:spider": "2025-08-17 01:40:26 +0000",
       "minecraft:creeper": "2025-08-17 01:53:21 +0000",
@@ -2146,6 +2147,12 @@
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2025-08-17 05:04:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-08-17 05:16:21 +0000"
     },
     "done": true
   },
