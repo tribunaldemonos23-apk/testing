@@ -618,3 +618,75 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [18Aug2025 05:35:12.728] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
 [18Aug2025 05:35:12.728] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
 [18Aug2025 05:35:12.728] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
+[18Aug2025 05:40:12.747] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[18Aug2025 05:40:12.748] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
+[18Aug2025 05:40:12.748] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[18Aug2025 05:40:12.748] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 873MB / Diff: +378MB
+[18Aug2025 05:40:12.748] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[18Aug2025 05:40:12.749] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
+[18Aug2025 05:40:12.749] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[18Aug2025 05:40:12.749] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
+[18Aug2025 05:40:12.749] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
+[18Aug2025 05:42:45.323] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/24, l='ServerLevel[world]', x=-2.45, y=72.00, z=72.64] died, message: 'Fisherman was pricked to death'
+[18Aug2025 05:45:12.770] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[18Aug2025 05:45:12.771] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
+[18Aug2025 05:45:12.771] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[18Aug2025 05:45:12.771] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 882MB / Diff: +387MB
+[18Aug2025 05:45:12.772] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[18Aug2025 05:45:12.772] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
+[18Aug2025 05:45:12.772] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[18Aug2025 05:45:12.772] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
+[18Aug2025 05:45:12.772] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
+[18Aug2025 05:50:13.169] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[18Aug2025 05:50:13.169] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
+[18Aug2025 05:50:13.170] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[18Aug2025 05:50:13.170] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 908MB / Diff: +413MB
+[18Aug2025 05:50:13.171] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[18Aug2025 05:50:13.171] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
+[18Aug2025 05:50:13.172] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[18Aug2025 05:50:13.172] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
+[18Aug2025 05:50:13.173] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
+[18Aug2025 05:50:17.065] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/136, l='ServerLevel[world]', x=2.89, y=72.00, z=11.91] died, message: 'Villager was pricked to death'
+[18Aug2025 05:55:12.812] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[18Aug2025 05:55:12.813] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
+[18Aug2025 05:55:12.813] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[18Aug2025 05:55:12.813] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 925MB / Diff: +430MB
+[18Aug2025 05:55:12.813] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[18Aug2025 05:55:12.814] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
+[18Aug2025 05:55:12.814] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[18Aug2025 05:55:12.814] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
+[18Aug2025 05:55:12.814] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
+[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
+[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 926MB / Diff: +431MB
+[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
+[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
+[18Aug2025 06:00:12.837] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
+[18Aug2025 06:02:04.870] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[18Aug2025 06:02:04.882] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[18Aug2025 06:02:38.815] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[18Aug2025 06:02:43.687] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevcito24 lost connection: Disconnected
+[18Aug2025 06:02:43.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevcito24 left the game
+[18Aug2025 06:02:43.688] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kevcito24
+[18Aug2025 06:02:51.570] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/20, l='ServerLevel[world]', x=91.83, y=72.31, z=64.77] died, message: 'Toolsmith was pricked to death'
+[18Aug2025 06:05:12.862] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[18Aug2025 06:05:12.863] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 2
+[18Aug2025 06:05:12.863] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[18Aug2025 06:05:12.864] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 669MB / Diff: +174MB
+[18Aug2025 06:05:12.864] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[18Aug2025 06:05:12.864] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
+[18Aug2025 06:05:12.864] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[18Aug2025 06:05:12.864] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
+[18Aug2025 06:05:12.865] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 91
+[18Aug2025 06:10:12.889] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[18Aug2025 06:10:12.889] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 2
+[18Aug2025 06:10:12.889] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 680MB / Diff: +185MB
+[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
+[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
+[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 102
