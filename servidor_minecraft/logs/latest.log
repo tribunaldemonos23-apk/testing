@@ -1,183 +1,164 @@
-[18Aug2025 04:48:15.948] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[18Aug2025 04:48:15.952] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[18Aug2025 04:48:22.217] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[18Aug2025 04:48:22.444] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/testing/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[18Aug2025 04:48:23.148] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[18Aug2025 04:48:23.150] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Aug2025 04:48:23.151] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Aug2025 04:48:23.153] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Aug2025 04:48:23.885] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
-[18Aug2025 04:48:29.250] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[18Aug2025 04:48:29.988] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[18Aug2025 04:48:29.994] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[18Aug2025 04:48:30.102] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Aug2025 04:48:30.414] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.4+mc1.20.1: 96 options available, 0 override(s) found
-[18Aug2025 04:48:30.422] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[18Aug2025 04:48:30.467] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[18Aug2025 04:48:30.889] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 119 options available, 0 override(s) found
-[18Aug2025 04:48:31.069] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Aug2025 04:48:31.078] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Aug2025 04:48:31.189] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Aug2025 04:48:36.702] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue002 will be loaded as it matches versions: 1.20.1 in 1.20.1
-[18Aug2025 04:48:36.703] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.EntityTickListMixin]
-[18Aug2025 04:48:36.703] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue001 will be loaded as it matches versions: 1.20.1 in 1.20.1
-[18Aug2025 04:48:36.703] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue004 will be loaded as it matches versions: 47.3.7 in *
-[18Aug2025 04:48:36.704] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue003 will be loaded as it matches versions: 47.3.7 in [47.2,)
-[18Aug2025 04:48:36.704] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue002 will be loaded as it matches versions: 47.3.7 in [47.2,)
-[18Aug2025 04:48:36.704] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [accessor.FakePlayerNetHandlerAccessor, accessor.ConnectionAccessor]
-[18Aug2025 04:48:36.704] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue001 will be loaded as it matches versions: 47.3.7 in [47.2,)
-[18Aug2025 04:48:36.704] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.ServerPlayerMixin, main.PlayerListMixin, accessor.PlayerAdvancementsAccessor]
-[18Aug2025 04:48:36.706] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.curios.UntrackedIssue001 will be loaded as it matches versions: 5.14.1+1.20.1 in [5.9.1,)
-[18Aug2025 04:48:36.706] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.CuriosEventHandlerMixin]
-[18Aug2025 04:48:36.708] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.citadel.UntrackedIssue001 will be loaded as it matches versions: 2.6.2 in [2.5.4,)
-[18Aug2025 04:48:36.708] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.architectury.UntrackedIssue001 will be loaded as it matches versions: 9.2.14 in [9.0.8,)
-[18Aug2025 04:48:36.716] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.modernfix.CancelRLMixin will be loaded as it matches versions: 5.24.4+mc1.20.1 in [5.0.0,)
-[18Aug2025 04:48:36.717] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to cancel list: [org.embeddedt.modernfix.common.mixin.perf.deduplicate_location.MixinResourceLocation]
-[18Aug2025 04:48:36.717] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.jei.FixItemStackCopy will be loaded as it matches versions: 15.20.0.112 in *
-[18Aug2025 04:48:36.717] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.SmithingCategoryExtensionMixin, main.NormalizedTypedItemStackMixin, main.IngredientSetMixin]
-[18Aug2025 04:48:36.728] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.feature.common.mods.minecraft.MemoryMonitor will be loaded as it matches versions: 1.20.1 in 1.20.1
-[18Aug2025 04:48:36.729] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.PlayerMixin, main.ChunkAccessMixin, main.LevelMixin, main.MinecraftServerMixin]
-[18Aug2025 04:48:37.917] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[18Aug2025 04:48:39.220] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (32.03 s after launch)
-[18Aug2025 04:48:39.459] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[18Aug2025 04:48:39.460] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[18Aug2025 04:48:42.477] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3247 milliseconds
-[18Aug2025 04:48:46.470] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[19Aug2025 00:46:31.020] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[19Aug2025 00:46:31.027] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[19Aug2025 00:46:32.330] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[19Aug2025 00:46:32.411] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/testing/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[19Aug2025 00:46:33.077] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[19Aug2025 00:46:33.079] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Aug2025 00:46:33.080] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Aug2025 00:46:33.081] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Aug2025 00:46:33.650] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
+[19Aug2025 00:46:37.728] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[19Aug2025 00:46:38.305] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[19Aug2025 00:46:38.310] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[19Aug2025 00:46:38.342] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Aug2025 00:46:38.595] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.4+mc1.20.1: 96 options available, 0 override(s) found
+[19Aug2025 00:46:38.599] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[19Aug2025 00:46:38.634] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[19Aug2025 00:46:38.915] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 119 options available, 0 override(s) found
+[19Aug2025 00:46:39.180] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Aug2025 00:46:39.207] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Aug2025 00:46:39.300] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Aug2025 00:46:44.638] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue002 will be loaded as it matches versions: 1.20.1 in 1.20.1
+[19Aug2025 00:46:44.638] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.EntityTickListMixin]
+[19Aug2025 00:46:44.639] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue001 will be loaded as it matches versions: 1.20.1 in 1.20.1
+[19Aug2025 00:46:44.641] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue004 will be loaded as it matches versions: 47.3.7 in *
+[19Aug2025 00:46:44.641] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue003 will be loaded as it matches versions: 47.3.7 in [47.2,)
+[19Aug2025 00:46:44.643] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue002 will be loaded as it matches versions: 47.3.7 in [47.2,)
+[19Aug2025 00:46:44.644] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [accessor.FakePlayerNetHandlerAccessor, accessor.ConnectionAccessor]
+[19Aug2025 00:46:44.644] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue001 will be loaded as it matches versions: 47.3.7 in [47.2,)
+[19Aug2025 00:46:44.644] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.ServerPlayerMixin, main.PlayerListMixin, accessor.PlayerAdvancementsAccessor]
+[19Aug2025 00:46:44.646] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.curios.UntrackedIssue001 will be loaded as it matches versions: 5.14.1+1.20.1 in [5.9.1,)
+[19Aug2025 00:46:44.647] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.CuriosEventHandlerMixin]
+[19Aug2025 00:46:44.648] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.citadel.UntrackedIssue001 will be loaded as it matches versions: 2.6.2 in [2.5.4,)
+[19Aug2025 00:46:44.656] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.architectury.UntrackedIssue001 will be loaded as it matches versions: 9.2.14 in [9.0.8,)
+[19Aug2025 00:46:44.669] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.modernfix.CancelRLMixin will be loaded as it matches versions: 5.24.4+mc1.20.1 in [5.0.0,)
+[19Aug2025 00:46:44.669] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to cancel list: [org.embeddedt.modernfix.common.mixin.perf.deduplicate_location.MixinResourceLocation]
+[19Aug2025 00:46:44.670] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.jei.FixItemStackCopy will be loaded as it matches versions: 15.20.0.112 in *
+[19Aug2025 00:46:44.670] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.SmithingCategoryExtensionMixin, main.NormalizedTypedItemStackMixin, main.IngredientSetMixin]
+[19Aug2025 00:46:44.686] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.feature.common.mods.minecraft.MemoryMonitor will be loaded as it matches versions: 1.20.1 in 1.20.1
+[19Aug2025 00:46:44.686] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.PlayerMixin, main.ChunkAccessMixin, main.LevelMixin, main.MinecraftServerMixin]
+[19Aug2025 00:46:45.943] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19Aug2025 00:46:47.329] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (20.52 s after launch)
+[19Aug2025 00:46:47.491] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[19Aug2025 00:46:47.492] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[19Aug2025 00:46:49.662] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2324 milliseconds
+[19Aug2025 00:46:53.676] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[18Aug2025 04:48:46.668] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[18Aug2025 04:48:47.681] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[18Aug2025 04:48:47.700] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[18Aug2025 04:48:47.714] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: loading old plugins from folder: /workspaces/testing/servidor_minecraft/berezka_plugins/the_lost_city directory exist: false
-[18Aug2025 04:48:47.719] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: mod berezka_api is founded. access to API...
-[18Aug2025 04:48:47.732] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: clazz: class org.berezka.berezka_api.Berezka_api is loaded: true
-[18Aug2025 04:48:47.734] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: mod berezka api: org.berezka.berezka_api.berezka_api_main@7eabeb2a is loaded: true
-[18Aug2025 04:48:47.746] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: API version is 2 use new Structures type: true
-[18Aug2025 04:48:47.759] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: param list: {SpawnCars=[class java.lang.Boolean, Should cars spawn?, true, null, null], CitySize=[class java.lang.Integer, It is the jigsaw depth limit and it has a maximum of 30., 15, 1, 30], CityDistanceFromCenter=[class java.lang.Integer, Defines the maximum distance of any piece from the structure start., 128, 1, 1000], CitySpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 64, 0, 4096], CitySeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 32, 0, 4096], CityBiomes=[interface java.util.List, Defines the list of biomes where cities can spawn., [plains, snowy_plains, sunflower_plains], null, null], VillagesCityBiomes=[interface java.util.List, Defines the list of biomes where cities can spawn., [plains, snowy_plains, sunflower_plains], null, null], VillagesCitySeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 32, 0, 4096], VillagesCitySpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 64, 0, 4096]}
-[18Aug2025 04:48:47.759] [modloading-worker-0/WARN] [org.berezka.the_lost_city.The_lost_city/]: Method createConfig: public static void org.berezka.berezka_api.berezka_api_main.createConfig(java.lang.String,java.lang.String,net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext,java.util.Map)
-[18Aug2025 04:48:47.749] [modloading-worker-0/INFO] [invtweaks/]: Registered 2 network packets
-[18Aug2025 04:48:47.760] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: language is null
-[18Aug2025 04:48:47.765] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: config param list for the_lost_city is {SpawnCars=[class java.lang.Boolean, Should cars spawn?, true, null, null], CitySize=[class java.lang.Integer, It is the jigsaw depth limit and it has a maximum of 30., 15, 1, 30], CityDistanceFromCenter=[class java.lang.Integer, Defines the maximum distance of any piece from the structure start., 128, 1, 1000], CitySpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 64, 0, 4096], CitySeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 32, 0, 4096], CityBiomes=[interface java.util.List, Defines the list of biomes where cities can spawn., [plains, snowy_plains, sunflower_plains], null, null], VillagesCityBiomes=[interface java.util.List, Defines the list of biomes where cities can spawn., [plains, snowy_plains, sunflower_plains], null, null], VillagesCitySeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 32, 0, 4096], VillagesCitySpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 64, 0, 4096]}
-[18Aug2025 04:48:47.765] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:SpawnCars
-[18Aug2025 04:48:47.771] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:CitySize
-[18Aug2025 04:48:47.773] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:CityDistanceFromCenter
-[18Aug2025 04:48:47.773] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:CitySpacing
-[18Aug2025 04:48:47.777] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:CitySeparation
-[18Aug2025 04:48:47.777] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:CityBiomes
-[18Aug2025 04:48:47.780] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:VillagesCityBiomes
-[18Aug2025 04:48:47.783] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:VillagesCitySeparation
-[18Aug2025 04:48:47.784] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:VillagesCitySpacing
-[18Aug2025 04:48:47.784] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config successfully registered!
-[18Aug2025 04:48:47.790] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config spec: net.minecraftforge.common.ForgeConfigSpec@75d8286d
-[18Aug2025 04:48:47.790] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config file path: /workspaces/testing/servidor_minecraft/config/TheLostCity.toml
-[18Aug2025 04:48:47.790] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: register mod: the_lost_city class: org.berezka.the_lost_city.The_lost_city
-[18Aug2025 04:48:47.792] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: methods: {listResource=public static boolean org.berezka.the_lost_city.The_lost_city.isResourceListened(java.lang.String), handleResource=public static java.util.List org.berezka.the_lost_city.The_lost_city.handleResource(java.lang.String), getJson=public static java.lang.String org.berezka.the_lost_city.The_lost_city.getJson(java.lang.String)}
-[18Aug2025 04:48:47.792] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: mod data: [class org.berezka.the_lost_city.The_lost_city, {listResource=public static boolean org.berezka.the_lost_city.The_lost_city.isResourceListened(java.lang.String), handleResource=public static java.util.List org.berezka.the_lost_city.The_lost_city.handleResource(java.lang.String), getJson=public static java.lang.String org.berezka.the_lost_city.The_lost_city.getJson(java.lang.String)}, [worldgen/structure, worldgen/structure_set, worldgen/template_pool]]
-[18Aug2025 04:48:47.793] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: Register: the_lost_city
-[18Aug2025 04:48:47.794] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: Registered mods: [berezka_api, the_lost_city]
-[18Aug2025 04:48:47.813] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: berezka is loading
-[18Aug2025 04:48:47.816] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: loading old plugins from folder: /workspaces/testing/servidor_minecraft/berezka_plugins/berezka_api directory exist: false
-[18Aug2025 04:48:47.821] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: language is null
-[18Aug2025 04:48:47.821] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: config param list for berezka_api is {DebugMode=[class java.lang.Boolean, Just debug mode, false, null, null], UseFolderPluginSystem=[class java.lang.Boolean, Creates berezka_plugins folder and loads data from it., false, null, null], FolderPluginSystemList=[interface java.util.List, Defines loot tables to replace: modid:path:target.json (path from loot_tables folder to target, target - name of loot table, required file must be in berezka_plugins/modid/target.json, example: berezka_api:chests/:berezkahousesmall_0.json), [], null, null]}
-[18Aug2025 04:48:47.821] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezka_api:DebugMode
-[18Aug2025 04:48:47.823] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezka_api:UseFolderPluginSystem
-[18Aug2025 04:48:47.824] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezka_api:FolderPluginSystemList
-[18Aug2025 04:48:47.826] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config successfully registered!
-[18Aug2025 04:48:47.828] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config spec: net.minecraftforge.common.ForgeConfigSpec@b94767c7
-[18Aug2025 04:48:47.830] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config file path: /workspaces/testing/servidor_minecraft/config/BerezkaAPI.toml
-[18Aug2025 04:48:48.022] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[18Aug2025 04:48:48.575] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[18Aug2025 04:48:48.576] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[18Aug2025 04:48:48.715] [modloading-worker-0/INFO] [net.hyrrx.hardcoretruedarkness.HardcoreTrueDarkness/]: hardcoretruedarkness Mod Initialized using hardcoded defaults. No configuration file is used.
-[18Aug2025 04:48:49.308] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
-[18Aug2025 04:48:49.940] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
-[18Aug2025 04:48:50.071] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[18Aug2025 04:48:50.107] [modloading-worker-0/WARN] [Visuality/]: Visuality is installed on a dedicated server, skip loading...
-[18Aug2025 04:48:50.342] [modloading-worker-0/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: mod berezka_api is founded. access to API...
-[18Aug2025 04:48:50.347] [modloading-worker-0/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: clazz: class org.berezka.berezka_api.Berezka_api is loaded: true
-[18Aug2025 04:48:50.348] [modloading-worker-0/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: API version is 2
-[18Aug2025 04:48:50.348] [modloading-worker-0/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: Mod berezkas_save_place is loaded
-[18Aug2025 04:48:50.353] [modloading-worker-0/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: param list: {BunkerSpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 20, 0, 4096], BunkerSeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 2, 0, 4096], BunkerBiomes=[interface java.util.List, Defines the list of biomes where this structure can spawn., [plains, snowy_plains, sunflower_plains], null, null]}
-[18Aug2025 04:48:50.354] [modloading-worker-0/WARN] [org.berezka.berezkas_save_place.Berezkas_save_place/]: Method createConfig: public static void org.berezka.berezka_api.berezka_api_main.createConfig(java.lang.String,java.lang.String,net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext,java.util.Map)
-[18Aug2025 04:48:50.356] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: language is null
-[18Aug2025 04:48:50.357] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: config param list for berezkas_save_place is {BunkerSpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 20, 0, 4096], BunkerSeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 2, 0, 4096], BunkerBiomes=[interface java.util.List, Defines the list of biomes where this structure can spawn., [plains, snowy_plains, sunflower_plains], null, null]}
-[18Aug2025 04:48:50.359] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezkas_save_place:BunkerSpacing
-[18Aug2025 04:48:50.360] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezkas_save_place:BunkerSeparation
-[18Aug2025 04:48:50.361] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezkas_save_place:BunkerBiomes
-[18Aug2025 04:48:50.361] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config successfully registered!
-[18Aug2025 04:48:50.362] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config spec: net.minecraftforge.common.ForgeConfigSpec@d833048a
-[18Aug2025 04:48:50.365] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config file path: /workspaces/testing/servidor_minecraft/config/BerezkasBunker.toml
-[18Aug2025 04:48:50.367] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: register mod: berezkas_save_place class: org.berezka.berezkas_save_place.Berezkas_save_place
-[18Aug2025 04:48:50.367] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: methods: {listResource=public static boolean org.berezka.berezkas_save_place.Berezkas_save_place.isResourceListened(java.lang.String), handleResource=public static java.util.List org.berezka.berezkas_save_place.Berezkas_save_place.handleResource(java.lang.String), getJson=public static java.lang.String org.berezka.berezkas_save_place.Berezkas_save_place.getJson(java.lang.String)}
-[18Aug2025 04:48:50.368] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: mod data: [class org.berezka.berezkas_save_place.Berezkas_save_place, {listResource=public static boolean org.berezka.berezkas_save_place.Berezkas_save_place.isResourceListened(java.lang.String), handleResource=public static java.util.List org.berezka.berezkas_save_place.Berezkas_save_place.handleResource(java.lang.String), getJson=public static java.lang.String org.berezka.berezkas_save_place.Berezkas_save_place.getJson(java.lang.String)}, [worldgen/structure, worldgen/structure_set]]
-[18Aug2025 04:48:50.370] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: Register: berezkas_save_place
-[18Aug2025 04:48:50.370] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: Registered mods: [berezka_api, the_lost_city, berezkas_save_place]
-[18Aug2025 04:48:51.889] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@689aab7b has been registered twice for the same name treechop:chop_wood.
-[18Aug2025 04:48:53.629] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[18Aug2025 04:48:53.643] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[18Aug2025 04:48:53.645] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[18Aug2025 04:48:53.649] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[18Aug2025 04:48:53.758] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[18Aug2025 04:48:54.041] [main/INFO] [org.berezka.berezka_api.Berezka_api/]: getValue: key: berezka_api:DebugMode is exist?: true
-[18Aug2025 04:48:54.367] [modloading-worker-0/INFO] [firstaid/]: firstaid starting...
-[18Aug2025 04:48:54.395] [modloading-worker-0/INFO] [net.hyrrx.hardcoretruedarkness.HardcoreTrueDarkness/]: hardcoretruedarkness: Common Setup with hardcoded defaults.
-[18Aug2025 04:48:54.439] [modloading-worker-0/INFO] [com.atsuishio.superbwarfare.Mod/]: This Mod used to be made by MCreator!
-[18Aug2025 04:48:54.491] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[18Aug2025 04:48:54.564] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[18Aug2025 04:48:54.571] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
-[18Aug2025 04:48:54.571] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[18Aug2025 04:48:54.579] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
-[18Aug2025 04:48:54.579] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
-[18Aug2025 04:48:54.581] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
-[18Aug2025 04:48:54.922] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[18Aug2025 04:48:55.200] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
-[18Aug2025 04:48:55.475] [main/INFO] [firstaid/]: Initializing PlayerRevive Compatibility...
-[18Aug2025 04:48:55.668] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlock_tracker for minecraft:player
-[18Aug2025 04:48:55.668] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
-[18Aug2025 04:48:55.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
-[18Aug2025 04:48:55.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18Aug2025 04:48:55.877] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[18Aug2025 04:48:55.879] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
-[18Aug2025 04:48:56.033] [modloading-worker-0/INFO] [com.choicetheorem.imst.imst/]: Got IMC []
-[18Aug2025 04:48:56.159] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
-[18Aug2025 04:48:56.159] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [equipmentcompare] Starting version check at https://mc-update-check.anthonyhilyard.com/502561
-[18Aug2025 04:48:56.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [equipmentcompare] Found status: UP_TO_DATE Current: 1.3.7 Target: null
-[18Aug2025 04:48:56.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[18Aug2025 04:48:57.012] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18Aug2025 04:48:57.031] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.21 Target: null
-[18Aug2025 04:48:57.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[18Aug2025 04:48:57.133] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.36 Target: null
-[18Aug2025 04:48:57.133] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[18Aug2025 04:48:57.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.4.15 Target: null
-[18Aug2025 04:48:57.232] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_plus] Starting version check at http://changelogs.moddinglegacy.com/dungeons-plus.json
-[18Aug2025 04:48:57.319] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_plus] Found status: BETA Current: 1.5.0 Target: null
-[18Aug2025 04:48:57.320] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
-[18Aug2025 04:48:57.321] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[18Aug2025 04:48:57.360] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
-[18Aug2025 04:48:57.363] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[18Aug2025 04:48:57.604] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
-[18Aug2025 04:48:57.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
-[18Aug2025 04:48:57.765] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23232!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23232!/:?]
-Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	... 6 more
-[18Aug2025 04:48:57.768] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Starting version check at https://forge.curseupdate.com/433068/presencefootsteps
-[18Aug2025 04:48:57.949] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Found status: BETA Current: 1.20.1-1.9.1-beta.1 Target: 1.20.1-1.9.1-beta.1
-[18Aug2025 04:48:57.987] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/testing/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23231!/assets/.mcassetsroot' uses unexpected schema
-[18Aug2025 04:48:57.987] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/testing/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23231!/data/.mcassetsroot' uses unexpected schema
-[18Aug2025 04:48:58.099] [main/INFO] [org.berezka.berezka_api.Berezka_api/]: loadPacks: [berezka_api, the_lost_city, berezkas_save_place]
-[18Aug2025 04:48:58.131] [main/INFO] [org.berezka.berezka_api.Berezka_api/]: Built in resource pack created
-[18Aug2025 04:48:58.160] [main/ERROR] [org.berezka.berezka_api.Berezka_api/]: Error reading metadata section
+[19Aug2025 00:46:53.903] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[19Aug2025 00:46:54.706] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[19Aug2025 00:46:54.730] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[19Aug2025 00:46:54.742] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: loading old plugins from folder: /workspaces/testing/servidor_minecraft/berezka_plugins/the_lost_city directory exist: false
+[19Aug2025 00:46:54.743] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: mod berezka_api is founded. access to API...
+[19Aug2025 00:46:54.746] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: clazz: class org.berezka.berezka_api.Berezka_api is loaded: true
+[19Aug2025 00:46:54.747] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: mod berezka api: org.berezka.berezka_api.berezka_api_main@2bf0ad2d is loaded: true
+[19Aug2025 00:46:54.752] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: API version is 2 use new Structures type: true
+[19Aug2025 00:46:54.753] [modloading-worker-0/INFO] [org.berezka.the_lost_city.The_lost_city/]: param list: {SpawnCars=[class java.lang.Boolean, Should cars spawn?, true, null, null], CitySize=[class java.lang.Integer, It is the jigsaw depth limit and it has a maximum of 30., 15, 1, 30], CityDistanceFromCenter=[class java.lang.Integer, Defines the maximum distance of any piece from the structure start., 128, 1, 1000], CitySpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 64, 0, 4096], CitySeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 32, 0, 4096], CityBiomes=[interface java.util.List, Defines the list of biomes where cities can spawn., [plains, snowy_plains, sunflower_plains], null, null], VillagesCityBiomes=[interface java.util.List, Defines the list of biomes where cities can spawn., [plains, snowy_plains, sunflower_plains], null, null], VillagesCitySeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 32, 0, 4096], VillagesCitySpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 64, 0, 4096]}
+[19Aug2025 00:46:54.754] [modloading-worker-0/WARN] [org.berezka.the_lost_city.The_lost_city/]: Method createConfig: public static void org.berezka.berezka_api.berezka_api_main.createConfig(java.lang.String,java.lang.String,net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext,java.util.Map)
+[19Aug2025 00:46:54.756] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: language is null
+[19Aug2025 00:46:54.757] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: config param list for the_lost_city is {SpawnCars=[class java.lang.Boolean, Should cars spawn?, true, null, null], CitySize=[class java.lang.Integer, It is the jigsaw depth limit and it has a maximum of 30., 15, 1, 30], CityDistanceFromCenter=[class java.lang.Integer, Defines the maximum distance of any piece from the structure start., 128, 1, 1000], CitySpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 64, 0, 4096], CitySeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 32, 0, 4096], CityBiomes=[interface java.util.List, Defines the list of biomes where cities can spawn., [plains, snowy_plains, sunflower_plains], null, null], VillagesCityBiomes=[interface java.util.List, Defines the list of biomes where cities can spawn., [plains, snowy_plains, sunflower_plains], null, null], VillagesCitySeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 32, 0, 4096], VillagesCitySpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 64, 0, 4096]}
+[19Aug2025 00:46:54.758] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:SpawnCars
+[19Aug2025 00:46:54.758] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:CitySize
+[19Aug2025 00:46:54.758] [modloading-worker-0/INFO] [invtweaks/]: Registered 2 network packets
+[19Aug2025 00:46:54.760] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:CityDistanceFromCenter
+[19Aug2025 00:46:54.761] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:CitySpacing
+[19Aug2025 00:46:54.761] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:CitySeparation
+[19Aug2025 00:46:54.763] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:CityBiomes
+[19Aug2025 00:46:54.763] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:VillagesCityBiomes
+[19Aug2025 00:46:54.763] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:VillagesCitySeparation
+[19Aug2025 00:46:54.766] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved the_lost_city:VillagesCitySpacing
+[19Aug2025 00:46:54.768] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config successfully registered!
+[19Aug2025 00:46:54.768] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config spec: net.minecraftforge.common.ForgeConfigSpec@dd4443ab
+[19Aug2025 00:46:54.769] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config file path: /workspaces/testing/servidor_minecraft/config/TheLostCity.toml
+[19Aug2025 00:46:54.770] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: register mod: the_lost_city class: org.berezka.the_lost_city.The_lost_city
+[19Aug2025 00:46:54.770] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: methods: {listResource=public static boolean org.berezka.the_lost_city.The_lost_city.isResourceListened(java.lang.String), handleResource=public static java.util.List org.berezka.the_lost_city.The_lost_city.handleResource(java.lang.String), getJson=public static java.lang.String org.berezka.the_lost_city.The_lost_city.getJson(java.lang.String)}
+[19Aug2025 00:46:54.771] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: mod data: [class org.berezka.the_lost_city.The_lost_city, {listResource=public static boolean org.berezka.the_lost_city.The_lost_city.isResourceListened(java.lang.String), handleResource=public static java.util.List org.berezka.the_lost_city.The_lost_city.handleResource(java.lang.String), getJson=public static java.lang.String org.berezka.the_lost_city.The_lost_city.getJson(java.lang.String)}, [worldgen/structure, worldgen/structure_set, worldgen/template_pool]]
+[19Aug2025 00:46:54.771] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: Register: the_lost_city
+[19Aug2025 00:46:54.773] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: Registered mods: [berezka_api, the_lost_city]
+[19Aug2025 00:46:54.787] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: berezka is loading
+[19Aug2025 00:46:54.792] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: loading old plugins from folder: /workspaces/testing/servidor_minecraft/berezka_plugins/berezka_api directory exist: false
+[19Aug2025 00:46:54.794] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: language is null
+[19Aug2025 00:46:54.795] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: config param list for berezka_api is {DebugMode=[class java.lang.Boolean, Just debug mode, false, null, null], UseFolderPluginSystem=[class java.lang.Boolean, Creates berezka_plugins folder and loads data from it., false, null, null], FolderPluginSystemList=[interface java.util.List, Defines loot tables to replace: modid:path:target.json (path from loot_tables folder to target, target - name of loot table, required file must be in berezka_plugins/modid/target.json, example: berezka_api:chests/:berezkahousesmall_0.json), [], null, null]}
+[19Aug2025 00:46:54.795] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezka_api:DebugMode
+[19Aug2025 00:46:54.796] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezka_api:UseFolderPluginSystem
+[19Aug2025 00:46:54.796] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezka_api:FolderPluginSystemList
+[19Aug2025 00:46:54.799] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config successfully registered!
+[19Aug2025 00:46:54.801] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config spec: net.minecraftforge.common.ForgeConfigSpec@a708d049
+[19Aug2025 00:46:54.802] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config file path: /workspaces/testing/servidor_minecraft/config/BerezkaAPI.toml
+[19Aug2025 00:46:54.956] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[19Aug2025 00:46:55.267] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[19Aug2025 00:46:55.267] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[19Aug2025 00:46:55.378] [modloading-worker-0/INFO] [net.hyrrx.hardcoretruedarkness.HardcoreTrueDarkness/]: hardcoretruedarkness Mod Initialized using hardcoded defaults. No configuration file is used.
+[19Aug2025 00:46:56.273] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[19Aug2025 00:46:57.111] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[19Aug2025 00:46:57.228] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[19Aug2025 00:46:57.249] [modloading-worker-0/WARN] [Visuality/]: Visuality is installed on a dedicated server, skip loading...
+[19Aug2025 00:46:57.419] [modloading-worker-0/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: mod berezka_api is founded. access to API...
+[19Aug2025 00:46:57.420] [modloading-worker-0/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: clazz: class org.berezka.berezka_api.Berezka_api is loaded: true
+[19Aug2025 00:46:57.421] [modloading-worker-0/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: API version is 2
+[19Aug2025 00:46:57.422] [modloading-worker-0/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: Mod berezkas_save_place is loaded
+[19Aug2025 00:46:57.422] [modloading-worker-0/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: param list: {BunkerSpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 20, 0, 4096], BunkerSeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 2, 0, 4096], BunkerBiomes=[interface java.util.List, Defines the list of biomes where this structure can spawn., [plains, snowy_plains, sunflower_plains], null, null]}
+[19Aug2025 00:46:57.423] [modloading-worker-0/WARN] [org.berezka.berezkas_save_place.Berezkas_save_place/]: Method createConfig: public static void org.berezka.berezka_api.berezka_api_main.createConfig(java.lang.String,java.lang.String,net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext,java.util.Map)
+[19Aug2025 00:46:57.423] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: language is null
+[19Aug2025 00:46:57.424] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: config param list for berezkas_save_place is {BunkerSpacing=[class java.lang.Integer, Average distance between two neighboring generation attempts., 20, 0, 4096], BunkerSeparation=[class java.lang.Integer, Minimum distance between two neighboring attempts., 2, 0, 4096], BunkerBiomes=[interface java.util.List, Defines the list of biomes where this structure can spawn., [plains, snowy_plains, sunflower_plains], null, null]}
+[19Aug2025 00:46:57.425] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezkas_save_place:BunkerSpacing
+[19Aug2025 00:46:57.426] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezkas_save_place:BunkerSeparation
+[19Aug2025 00:46:57.426] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: saved berezkas_save_place:BunkerBiomes
+[19Aug2025 00:46:57.427] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config successfully registered!
+[19Aug2025 00:46:57.427] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config spec: net.minecraftforge.common.ForgeConfigSpec@99fb45f
+[19Aug2025 00:46:57.428] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: Config file path: /workspaces/testing/servidor_minecraft/config/BerezkasBunker.toml
+[19Aug2025 00:46:57.428] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: register mod: berezkas_save_place class: org.berezka.berezkas_save_place.Berezkas_save_place
+[19Aug2025 00:46:57.429] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: methods: {listResource=public static boolean org.berezka.berezkas_save_place.Berezkas_save_place.isResourceListened(java.lang.String), handleResource=public static java.util.List org.berezka.berezkas_save_place.Berezkas_save_place.handleResource(java.lang.String), getJson=public static java.lang.String org.berezka.berezkas_save_place.Berezkas_save_place.getJson(java.lang.String)}
+[19Aug2025 00:46:57.429] [modloading-worker-0/INFO] [org.berezka.berezka_api.berezka_api_main/]: mod data: [class org.berezka.berezkas_save_place.Berezkas_save_place, {listResource=public static boolean org.berezka.berezkas_save_place.Berezkas_save_place.isResourceListened(java.lang.String), handleResource=public static java.util.List org.berezka.berezkas_save_place.Berezkas_save_place.handleResource(java.lang.String), getJson=public static java.lang.String org.berezka.berezkas_save_place.Berezkas_save_place.getJson(java.lang.String)}, [worldgen/structure, worldgen/structure_set]]
+[19Aug2025 00:46:57.430] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: Register: berezkas_save_place
+[19Aug2025 00:46:57.430] [modloading-worker-0/INFO] [org.berezka.berezka_api.Berezka_api/]: Registered mods: [berezka_api, the_lost_city, berezkas_save_place]
+[19Aug2025 00:46:58.695] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@54dd6160 has been registered twice for the same name treechop:chop_wood.
+[19Aug2025 00:47:00.300] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[19Aug2025 00:47:00.316] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[19Aug2025 00:47:00.317] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[19Aug2025 00:47:00.320] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[19Aug2025 00:47:00.427] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[19Aug2025 00:47:00.699] [main/INFO] [org.berezka.berezka_api.Berezka_api/]: getValue: key: berezka_api:DebugMode is exist?: true
+[19Aug2025 00:47:01.034] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[19Aug2025 00:47:01.055] [modloading-worker-0/INFO] [firstaid/]: firstaid starting...
+[19Aug2025 00:47:01.082] [modloading-worker-0/INFO] [net.hyrrx.hardcoretruedarkness.HardcoreTrueDarkness/]: hardcoretruedarkness: Common Setup with hardcoded defaults.
+[19Aug2025 00:47:01.147] [modloading-worker-0/INFO] [com.atsuishio.superbwarfare.Mod/]: This Mod used to be made by MCreator!
+[19Aug2025 00:47:01.226] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[19Aug2025 00:47:01.324] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[19Aug2025 00:47:01.338] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[19Aug2025 00:47:01.344] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[19Aug2025 00:47:01.380] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[19Aug2025 00:47:01.383] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[19Aug2025 00:47:01.385] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[19Aug2025 00:47:01.791] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[19Aug2025 00:47:02.180] [main/INFO] [firstaid/]: Initializing PlayerRevive Compatibility...
+[19Aug2025 00:47:02.460] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[19Aug2025 00:47:02.460] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[19Aug2025 00:47:02.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[19Aug2025 00:47:02.512] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19Aug2025 00:47:02.652] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[19Aug2025 00:47:02.652] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[19Aug2025 00:47:02.820] [modloading-worker-0/INFO] [com.choicetheorem.imst.imst/]: Got IMC []
+[19Aug2025 00:47:02.994] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[19Aug2025 00:47:02.995] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [equipmentcompare] Starting version check at https://mc-update-check.anthonyhilyard.com/502561
+[19Aug2025 00:47:03.263] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [equipmentcompare] Found status: UP_TO_DATE Current: 1.3.7 Target: null
+[19Aug2025 00:47:03.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[19Aug2025 00:47:03.623] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19Aug2025 00:47:03.806] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[19Aug2025 00:47:04.021] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.21 Target: null
+[19Aug2025 00:47:04.023] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[19Aug2025 00:47:04.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.36 Target: null
+[19Aug2025 00:47:04.125] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[19Aug2025 00:47:04.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.4.15 Target: null
+[19Aug2025 00:47:04.224] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_plus] Starting version check at http://changelogs.moddinglegacy.com/dungeons-plus.json
+[19Aug2025 00:47:04.235] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/testing/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23231!/assets/.mcassetsroot' uses unexpected schema
+[19Aug2025 00:47:04.236] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/testing/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23231!/data/.mcassetsroot' uses unexpected schema
+[19Aug2025 00:47:04.311] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_plus] Found status: BETA Current: 1.5.0 Target: null
+[19Aug2025 00:47:04.311] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[19Aug2025 00:47:04.329] [main/INFO] [org.berezka.berezka_api.Berezka_api/]: loadPacks: [berezka_api, the_lost_city, berezkas_save_place]
+[19Aug2025 00:47:04.345] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[19Aug2025 00:47:04.345] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[19Aug2025 00:47:04.411] [main/INFO] [org.berezka.berezka_api.Berezka_api/]: Built in resource pack created
+[19Aug2025 00:47:04.491] [main/ERROR] [org.berezka.berezka_api.Berezka_api/]: Error reading metadata section
 java.lang.RuntimeException: No key block in MapLike[{"pack_format":15,"description":"Berezka API Structure Set Pack"}]
 	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar%2377!/:?]
 	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar%2377!/:?]
@@ -207,11 +188,30 @@ java.lang.RuntimeException: No key block in MapLike[{"pack_format":15,"descripti
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[18Aug2025 04:48:59.109] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: handle resource: input: worldgen/structure, output: [worldgen/structure/city.json, worldgen/structure/villages_city.json]
-[18Aug2025 04:48:59.112] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: handle resource: input: worldgen/structure, output: [worldgen/structure/elitebunker.json] (berezkas_save_place)
-[18Aug2025 04:48:59.141] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:48:59.141] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: biomes list is not empty
-[18Aug2025 04:48:59.142] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: cityAdvanced json: {
+[19Aug2025 00:47:04.576] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[19Aug2025 00:47:04.576] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
+[19Aug2025 00:47:04.741] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23232!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23232!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[19Aug2025 00:47:04.744] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Starting version check at https://forge.curseupdate.com/433068/presencefootsteps
+[19Aug2025 00:47:04.841] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Found status: BETA Current: 1.20.1-1.9.1-beta.1 Target: 1.20.1-1.9.1-beta.1
+[19Aug2025 00:47:05.793] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: handle resource: input: worldgen/structure, output: [worldgen/structure/city.json, worldgen/structure/villages_city.json]
+[19Aug2025 00:47:05.799] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: handle resource: input: worldgen/structure, output: [worldgen/structure/elitebunker.json] (berezkas_save_place)
+[19Aug2025 00:47:05.826] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:05.828] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: biomes list is not empty
+[19Aug2025 00:47:05.829] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: cityAdvanced json: {
   "type": "berezka_api:berezka_structures",
   "start_pool": "the_lost_city:city",
   "size": 15,
@@ -227,8 +227,8 @@ java.lang.RuntimeException: No key block in MapLike[{"pack_format":15,"descripti
 "plains", "snowy_plains", "sunflower_plains"  ],
   "use_expansion_hack": true
 }
-[18Aug2025 04:48:59.149] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:48:59.151] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: createStructure by berezkas_save_place returns: {
+[19Aug2025 00:47:05.845] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:05.846] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: createStructure by berezkas_save_place returns: {
   "type": "minecraft:jigsaw",
   "start_pool": "berezkas_save_place:elitebunker",
   "size": 7,
@@ -245,9 +245,9 @@ java.lang.RuntimeException: No key block in MapLike[{"pack_format":15,"descripti
   "use_expansion_hack": false
 }
 
-[18Aug2025 04:48:59.311] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:48:59.314] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: biomes list is not empty
-[18Aug2025 04:48:59.314] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: VillagesCityAdvanced json: {
+[19Aug2025 00:47:05.939] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:05.940] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: biomes list is not empty
+[19Aug2025 00:47:05.940] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: VillagesCityAdvanced json: {
   "type": "minecraft:jigsaw",
   "start_pool": "the_lost_city:villages_city",
   "size": 7,
@@ -264,11 +264,11 @@ java.lang.RuntimeException: No key block in MapLike[{"pack_format":15,"descripti
   ],
   "use_expansion_hack": false
 }
-[18Aug2025 04:48:59.328] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: handle resource: input: worldgen/structure_set, output: [worldgen/structure_set/city.json, worldgen/structure_set/villages_city.json]
-[18Aug2025 04:48:59.333] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: handle resource: input: worldgen/structure_set, output: [worldgen/structure_set/elitebunker.json] (berezkas_save_place)
-[18Aug2025 04:48:59.355] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:48:59.360] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:48:59.360] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: createStructureSet by berezkas_save_place returns: {
+[19Aug2025 00:47:05.946] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: handle resource: input: worldgen/structure_set, output: [worldgen/structure_set/city.json, worldgen/structure_set/villages_city.json]
+[19Aug2025 00:47:05.952] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: handle resource: input: worldgen/structure_set, output: [worldgen/structure_set/elitebunker.json] (berezkas_save_place)
+[19Aug2025 00:47:05.964] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:05.968] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:05.969] [main/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: createStructureSet by berezkas_save_place returns: {
   "structures": [
     {
       "structure": "berezkas_save_place:elitebunker",
@@ -283,26 +283,26 @@ java.lang.RuntimeException: No key block in MapLike[{"pack_format":15,"descripti
   }
 }
  [config: BunkerSeparation ]
-[18Aug2025 04:48:59.435] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
-[18Aug2025 04:48:59.437] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:48:59.516] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: handle resource: input: worldgen/template_pool, output: [worldgen/template_pool/city_cars.json, worldgen/template_pool/city_houses.json, worldgen/template_pool/city_small_houses.json, worldgen/template_pool/city_under.json, worldgen/template_pool/villages_city_main_tiles.json, worldgen/template_pool/survivorscamp.json]
-[18Aug2025 04:48:59.571] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:48:59.574] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: return null to cars
-[18Aug2025 04:48:59.576] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: car: the_lost_city:car blacklist: false
-[18Aug2025 04:48:59.576] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: car: the_lost_city:car2 blacklist: false
-[18Aug2025 04:48:59.576] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: car: the_lost_city:car3 blacklist: false
-[18Aug2025 04:48:59.576] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: car: the_lost_city:car4 blacklist: false
-[18Aug2025 04:48:59.576] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: car: the_lost_city:car5 blacklist: false
-[18Aug2025 04:48:59.577] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:48:59.584] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:48:59.591] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:48:59.680] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:48:59.684] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: createTemplatePoolJson: structure: the_lost_city:survivor_camp replaced?: false
-[18Aug2025 04:48:59.872] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:01.646] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (store.json) doesnt exist
-[18Aug2025 04:49:01.650] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (berezkahousesmall_0.json) doesnt exist
-[18Aug2025 04:49:01.776] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (nether_village.json) doesnt exist
-[18Aug2025 04:49:01.791] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:superbwarfare:grant_manual
+[19Aug2025 00:47:06.022] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[19Aug2025 00:47:06.022] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:06.076] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: handle resource: input: worldgen/template_pool, output: [worldgen/template_pool/city_cars.json, worldgen/template_pool/city_houses.json, worldgen/template_pool/city_small_houses.json, worldgen/template_pool/city_under.json, worldgen/template_pool/villages_city_main_tiles.json, worldgen/template_pool/survivorscamp.json]
+[19Aug2025 00:47:06.105] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:06.106] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: return null to cars
+[19Aug2025 00:47:06.106] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: car: the_lost_city:car blacklist: false
+[19Aug2025 00:47:06.107] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: car: the_lost_city:car2 blacklist: false
+[19Aug2025 00:47:06.107] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: car: the_lost_city:car3 blacklist: false
+[19Aug2025 00:47:06.107] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: car: the_lost_city:car4 blacklist: false
+[19Aug2025 00:47:06.107] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: car: the_lost_city:car5 blacklist: false
+[19Aug2025 00:47:06.108] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:06.112] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:06.117] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:06.180] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:06.183] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: createTemplatePoolJson: structure: the_lost_city:survivor_camp replaced?: false
+[19Aug2025 00:47:06.282] [main/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:08.920] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (store.json) doesnt exist
+[19Aug2025 00:47:08.927] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (berezkahousesmall_0.json) doesnt exist
+[19Aug2025 00:47:09.011] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (nether_village.json) doesnt exist
+[19Aug2025 00:47:09.018] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:superbwarfare:grant_manual
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23231!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -354,339 +354,176 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[18Aug2025 04:49:01.926] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (tower_chest.json) doesnt exist
-[18Aug2025 04:49:02.268] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (car.json) doesnt exist
-[18Aug2025 04:49:02.382] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (diningroom.json) doesnt exist
-[18Aug2025 04:49:02.418] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (farm.json) doesnt exist
-[18Aug2025 04:49:03.472] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe superbwarfare:superb_warfare_manual_crafting: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
-[18Aug2025 04:49:03.501] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe survival_instinct:stick_with_cloth_recipe: com.google.gson.JsonSyntaxException: Unknown item 'survival_instinct:sword_stick_with_cloth'
-[18Aug2025 04:49:03.622] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[18Aug2025 04:49:03.913] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2470 advancements
-[18Aug2025 04:49:03.937] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
-[18Aug2025 04:49:03.943] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[18Aug2025 04:49:04.057] [main/WARN] [firstaid/registry]: Damage distribution ResourceKey[firstaid:damage_distributions / firstaid:explosion] overwrites previously registered distribution for damage type projectile_explosion
-[18Aug2025 04:49:04.063] [main/INFO] [firstaid/registry]: Built local FirstAid registry lookups
-[18Aug2025 04:49:04.108] [main/WARN] [ModernFix/]: Initial datapack load took 6.084 s
-[18Aug2025 04:49:04.310] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[18Aug2025 04:49:04.311] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[18Aug2025 04:49:04.312] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[18Aug2025 04:49:04.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18Aug2025 04:49:04.705] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[18Aug2025 04:49:04.748] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[18Aug2025 04:49:04.852] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18Aug2025 04:49:04.852] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[18Aug2025 04:49:04.853] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18Aug2025 04:49:04.853] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[18Aug2025 04:49:05.102] [Server thread/INFO] [spark/]: Starting background profiler...
-[18Aug2025 04:49:06.168] [Server thread/INFO] [Framework/]: Loading server configs...
-[18Aug2025 04:49:06.196] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[18Aug2025 04:49:07.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18Aug2025 04:49:08.289] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.428] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.439] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.474] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.497] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.531] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.551] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.556] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.590] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.601] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.605] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.618] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.635] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.657] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.689] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.733] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.735] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.737] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.751] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.777] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.803] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.822] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.839] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.843] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.848] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.858] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.867] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.875] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.883] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.885] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.906] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.913] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.943] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.955] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.971] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:08.973] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.006] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.027] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.029] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.047] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.078] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.081] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.082] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.090] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.103] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.181] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.202] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.275] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.280] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.283] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:09.287] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:10.020] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:10.023] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:10.027] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:10.033] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:10.070] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:10.078] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:10.151] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:10.153] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:10.157] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:11.734] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.735] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.736] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.737] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.738] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.740] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.784] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.785] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.786] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.787] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.788] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.790] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.791] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:11.792] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:12.277] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:12.279] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:12.281] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:12.282] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:12.282] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:12.282] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:12.283] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:12.283] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:12.284] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:12.284] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:12.287] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:12.648] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:13.152] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2025 04:49:14.156] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[18Aug2025 04:49:14.519] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7372 ms
-[18Aug2025 04:49:14.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.648s)! For help, type "help"
-[18Aug2025 04:49:14.548] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:14.659] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 04:49:14.668] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[18Aug2025 04:49:14.794] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[18Aug2025 04:49:14.809] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
-[18Aug2025 04:49:14.811] [Server thread/WARN] [ModernFix/]: Dedicated server took 67.619 seconds to load
-[18Aug2025 04:49:17.061] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2098ms or 41 ticks behind
-[18Aug2025 04:49:21.118] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[18Aug2025 04:49:21.381] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kevcito24[/100.107.246.52:54126] logged in with entity id 180 at (-278.18965434653677, 28.0, -110.3934390316184)
-[18Aug2025 04:49:21.592] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player kevcito24
-[18Aug2025 04:49:21.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevcito24 joined the game
-[18Aug2025 04:49:22.277] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:22.516] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kevcito24 (18)
-[18Aug2025 04:49:22.520] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kevcito24
-[18Aug2025 04:49:22.687] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 8e3ec451-1a1d-3512-9e3d-be47cfea5cfb
-[18Aug2025 04:49:23.667] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 8e3ec451-1a1d-3512-9e3d-be47cfea5cfb
-[18Aug2025 04:49:23.673] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kevcito24 (8e3ec451-1a1d-3512-9e3d-be47cfea5cfb) successfully connected to voice chat
-[18Aug2025 04:49:29.356] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:29.445] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:30.690] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:32.051] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:33.377] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@61c48fae[id=<null>,name=itstomii_,properties={},legacy=false] (/100.80.177.74:52086) lost connection: Disconnected
-[18Aug2025 04:49:34.026] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:49:38.795] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: itstomii_[/100.80.177.74:52112] logged in with entity id 380 at (-275.30000001192093, 25.0, -109.30000001192093)
-[18Aug2025 04:49:38.834] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player itstomii_
-[18Aug2025 04:49:38.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: itstomii_ joined the game
-[18Aug2025 04:49:39.104] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of itstomii_ (18)
-[18Aug2025 04:49:39.104] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to itstomii_
-[18Aug2025 04:49:40.970] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b1e3719d-0bc3-3993-821f-922b52823a62
-[18Aug2025 04:49:41.970] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b1e3719d-0bc3-3993-821f-922b52823a62
-[18Aug2025 04:49:41.972] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player itstomii_ (b1e3719d-0bc3-3993-821f-922b52823a62) successfully connected to voice chat
-[18Aug2025 04:49:46.065] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14052ms or 281 ticks behind
-[18Aug2025 04:49:49.064] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:50:15.911] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:54:31.192] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 04:54:31.193] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 04:54:31.198] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Waiting to stabilize [4/10]
-[18Aug2025 04:54:31.198] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 04:54:31.199] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 04:54:31.199] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 1
-[18Aug2025 04:58:45.690] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-80, y=80, z=-93} BlockPos{x=40, y=72, z=52}
-[18Aug2025 04:59:31.170] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 04:59:31.171] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 04:59:31.176] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 538MB / Diff: +43MB
-[18Aug2025 04:59:31.178] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 04:59:31.178] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 04:59:31.179] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 45
-[18Aug2025 04:59:40.779] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:59:46.174] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:59:49.910] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 04:59:50.433] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 05:03:42.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [itstomii_: Gamerule naturalRegeneration is now set to: true]
-[18Aug2025 05:04:31.164] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 05:04:31.165] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 05:04:31.165] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 680MB / Diff: +185MB
-[18Aug2025 05:04:31.165] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 05:04:31.165] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 05:04:31.165] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 620
-[18Aug2025 05:05:40.959] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevcito24 lost connection: Disconnected
-[18Aug2025 05:05:40.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevcito24 left the game
-[18Aug2025 05:05:40.963] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kevcito24
-[18Aug2025 05:05:44.414] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kevcito24[/100.107.246.52:55558] logged in with entity id 6869 at (-65.62023307838705, 88.0, -88.89921487600748)
-[18Aug2025 05:05:44.433] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player kevcito24
-[18Aug2025 05:05:44.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevcito24 joined the game
-[18Aug2025 05:05:44.684] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kevcito24 (18)
-[18Aug2025 05:05:44.686] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kevcito24
-[18Aug2025 05:05:45.237] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 8e3ec451-1a1d-3512-9e3d-be47cfea5cfb
-[18Aug2025 05:05:46.224] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 8e3ec451-1a1d-3512-9e3d-be47cfea5cfb
-[18Aug2025 05:05:46.225] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kevcito24 (8e3ec451-1a1d-3512-9e3d-be47cfea5cfb) successfully connected to voice chat
-[18Aug2025 05:06:55.072] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/39, l='ServerLevel[world]', x=-3.01, y=72.00, z=72.78] died, message: 'Fisherman was pricked to death'
-[18Aug2025 05:08:23.466] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[18Aug2025 05:08:43.314] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4851ms or 97 ticks behind
-[18Aug2025 05:09:03.471] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[18Aug2025 05:09:40.497] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22034ms or 440 ticks behind
-[18Aug2025 05:10:00.869] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5406ms or 108 ticks behind
-[18Aug2025 05:10:08.938] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 05:10:08.939] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
-[18Aug2025 05:10:08.939] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 05:10:08.939] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 729MB / Diff: +234MB
-[18Aug2025 05:10:08.940] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 05:10:08.940] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 05:10:08.941] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 05:10:08.941] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 05:10:08.941] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 694
-[18Aug2025 05:10:12.636] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 05:10:12.638] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 05:10:19.257] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3394ms or 67 ticks behind
-[18Aug2025 05:10:26.135] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 05:10:26.141] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 05:10:26.152] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 05:10:26.163] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 05:10:26.167] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 05:10:26.170] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 05:10:26.175] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 05:10:26.204] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 05:10:26.206] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 05:10:26.214] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 05:12:57.616] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[18Aug2025 05:13:33.201] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
-[18Aug2025 05:15:12.710] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 05:15:12.710] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
-[18Aug2025 05:15:12.711] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 05:15:12.711] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 831MB / Diff: +336MB
-[18Aug2025 05:15:12.711] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 05:15:12.712] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 05:15:12.712] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 05:15:12.712] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 05:15:12.712] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2132
-[18Aug2025 05:20:12.724] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 05:20:12.724] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
-[18Aug2025 05:20:12.724] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 05:20:12.725] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 842MB / Diff: +347MB
-[18Aug2025 05:20:12.725] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 05:20:12.725] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 05:20:12.725] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 05:20:12.725] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 05:20:12.725] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
-[18Aug2025 05:23:22.274] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/37, l='ServerLevel[world]', x=-3.02, y=72.00, z=71.10] died, message: 'Fisherman was pricked to death'
-[18Aug2025 05:25:12.844] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 05:25:12.845] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
-[18Aug2025 05:25:12.845] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 05:25:12.846] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 854MB / Diff: +359MB
-[18Aug2025 05:25:12.846] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 05:25:12.846] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 05:25:12.846] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 05:25:12.846] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 05:25:12.846] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
-[18Aug2025 05:26:40.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [itstomii_: Set own game mode to Creative Mode]
-[18Aug2025 05:26:41.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [itstomii_: Set own game mode to Survival Mode]
-[18Aug2025 05:30:12.778] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 05:30:12.778] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
-[18Aug2025 05:30:12.778] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 05:30:12.779] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 857MB / Diff: +362MB
-[18Aug2025 05:30:12.779] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 05:30:12.779] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 05:30:12.779] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 05:30:12.779] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 05:30:12.779] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
-[18Aug2025 05:35:12.727] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 05:35:12.727] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
-[18Aug2025 05:35:12.727] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 05:35:12.728] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 864MB / Diff: +369MB
-[18Aug2025 05:35:12.728] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 05:35:12.728] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 05:35:12.728] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 05:35:12.728] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 05:35:12.728] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
-[18Aug2025 05:40:12.747] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 05:40:12.748] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
-[18Aug2025 05:40:12.748] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 05:40:12.748] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 873MB / Diff: +378MB
-[18Aug2025 05:40:12.748] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 05:40:12.749] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 05:40:12.749] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 05:40:12.749] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 05:40:12.749] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
-[18Aug2025 05:42:45.323] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/24, l='ServerLevel[world]', x=-2.45, y=72.00, z=72.64] died, message: 'Fisherman was pricked to death'
-[18Aug2025 05:45:12.770] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 05:45:12.771] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
-[18Aug2025 05:45:12.771] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 05:45:12.771] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 882MB / Diff: +387MB
-[18Aug2025 05:45:12.772] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 05:45:12.772] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 05:45:12.772] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 05:45:12.772] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 05:45:12.772] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
-[18Aug2025 05:50:13.169] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 05:50:13.169] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
-[18Aug2025 05:50:13.170] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 05:50:13.170] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 908MB / Diff: +413MB
-[18Aug2025 05:50:13.171] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 05:50:13.171] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 05:50:13.172] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 05:50:13.172] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 05:50:13.173] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
-[18Aug2025 05:50:17.065] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/136, l='ServerLevel[world]', x=2.89, y=72.00, z=11.91] died, message: 'Villager was pricked to death'
-[18Aug2025 05:55:12.812] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 05:55:12.813] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
-[18Aug2025 05:55:12.813] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 05:55:12.813] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 925MB / Diff: +430MB
-[18Aug2025 05:55:12.813] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 05:55:12.814] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 05:55:12.814] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 05:55:12.814] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 05:55:12.814] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
-[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 1
-[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 926MB / Diff: +431MB
-[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 06:00:12.836] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 06:00:12.837] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2153
-[18Aug2025 06:02:04.870] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 06:02:04.882] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 06:02:38.815] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
-[18Aug2025 06:02:43.687] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevcito24 lost connection: Disconnected
-[18Aug2025 06:02:43.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevcito24 left the game
-[18Aug2025 06:02:43.688] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kevcito24
-[18Aug2025 06:02:51.570] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/20, l='ServerLevel[world]', x=91.83, y=72.31, z=64.77] died, message: 'Toolsmith was pricked to death'
-[18Aug2025 06:05:12.862] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 06:05:12.863] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 2
-[18Aug2025 06:05:12.863] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 06:05:12.864] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 669MB / Diff: +174MB
-[18Aug2025 06:05:12.864] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 06:05:12.864] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 06:05:12.864] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 06:05:12.864] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 06:05:12.865] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 91
-[18Aug2025 06:10:12.889] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
-[18Aug2025 06:10:12.889] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 2
-[18Aug2025 06:10:12.889] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
-[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 495MB / C: 680MB / Diff: +185MB
-[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
-[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
-[18Aug2025 06:10:12.890] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 102
+[19Aug2025 00:47:09.073] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (tower_chest.json) doesnt exist
+[19Aug2025 00:47:09.297] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (car.json) doesnt exist
+[19Aug2025 00:47:09.334] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (diningroom.json) doesnt exist
+[19Aug2025 00:47:09.345] [Worker-Main-1/WARN] [org.berezka.berezka_api.Berezka_api/]: called getResource with namespace berezka_api but file (farm.json) doesnt exist
+[19Aug2025 00:47:09.813] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe superbwarfare:superb_warfare_manual_crafting: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
+[19Aug2025 00:47:09.833] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe survival_instinct:stick_with_cloth_recipe: com.google.gson.JsonSyntaxException: Unknown item 'survival_instinct:sword_stick_with_cloth'
+[19Aug2025 00:47:09.928] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[19Aug2025 00:47:10.205] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2470 advancements
+[19Aug2025 00:47:10.241] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[19Aug2025 00:47:10.250] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[19Aug2025 00:47:10.373] [main/WARN] [firstaid/registry]: Damage distribution ResourceKey[firstaid:damage_distributions / firstaid:explosion] overwrites previously registered distribution for damage type projectile_explosion
+[19Aug2025 00:47:10.374] [main/INFO] [firstaid/registry]: Built local FirstAid registry lookups
+[19Aug2025 00:47:10.413] [main/WARN] [ModernFix/]: Initial datapack load took 6.134 s
+[19Aug2025 00:47:10.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[19Aug2025 00:47:10.623] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[19Aug2025 00:47:10.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[19Aug2025 00:47:10.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19Aug2025 00:47:10.971] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[19Aug2025 00:47:11.071] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[19Aug2025 00:47:11.342] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19Aug2025 00:47:11.342] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[19Aug2025 00:47:11.343] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19Aug2025 00:47:11.343] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[19Aug2025 00:47:11.869] [Server thread/INFO] [spark/]: Starting background profiler...
+[19Aug2025 00:47:12.721] [Server thread/INFO] [Framework/]: Loading server configs...
+[19Aug2025 00:47:12.746] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[19Aug2025 00:47:13.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19Aug2025 00:47:14.645] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:14.708] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:14.728] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:14.756] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:14.769] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:14.778] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:14.786] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:14.802] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:14.807] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:14.811] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:16.126] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.151] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.158] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.171] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.192] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.214] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.235] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.243] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.259] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.265] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.268] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.271] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.280] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.304] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.332] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.351] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.355] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.362] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.369] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.386] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.403] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.414] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.431] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.436] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.441] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.447] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.458] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.462] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.475] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.477] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.489] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.493] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.511] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.518] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.532] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.536] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.560] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.574] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.576] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.591] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.612] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.619] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.625] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.640] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.655] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.700] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.708] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.748] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.753] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.756] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:16.758] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:17.655] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:17.657] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:17.662] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:17.665] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:17.701] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:17.703] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:17.751] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:17.759] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:17.761] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:17.996] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:17.998] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:17.999] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:18.002] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:18.357] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:18.359] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:18.360] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:18.361] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:18.362] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:18.364] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:18.365] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:18.366] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:18.373] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:18.374] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:18.690] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:19.236] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2025 00:47:20.707] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7018 ms
+[19Aug2025 00:47:20.711] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.336s)! For help, type "help"
+[19Aug2025 00:47:20.761] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:20.831] [Server thread/INFO] [org.berezka.berezkas_save_place.Berezkas_save_place/]: getJsonMethod
+[19Aug2025 00:47:20.855] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[19Aug2025 00:47:21.031] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[19Aug2025 00:47:21.055] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[19Aug2025 00:47:21.059] [Server thread/WARN] [ModernFix/]: Dedicated server took 54.249 seconds to load
+[19Aug2025 00:47:23.336] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2124ms or 42 ticks behind
+[19Aug2025 00:47:28.951] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[19Aug2025 00:47:29.337] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kevcito24[/100.107.246.52:60127] logged in with entity id 241 at (-73.46686278890813, 65.0, -87.37884897486589)
+[19Aug2025 00:47:29.502] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player kevcito24
+[19Aug2025 00:47:29.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevcito24 joined the game
+[19Aug2025 00:47:30.515] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kevcito24 (18)
+[19Aug2025 00:47:30.518] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kevcito24
+[19Aug2025 00:47:31.539] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:31.696] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 8e3ec451-1a1d-3512-9e3d-be47cfea5cfb
+[19Aug2025 00:47:32.331] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:32.689] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 8e3ec451-1a1d-3512-9e3d-be47cfea5cfb
+[19Aug2025 00:47:32.696] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kevcito24 (8e3ec451-1a1d-3512-9e3d-be47cfea5cfb) successfully connected to voice chat
+[19Aug2025 00:47:38.978] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:43.697] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:47:49.430] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11117ms or 222 ticks behind
+[19Aug2025 00:49:23.122] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/36, l='ServerLevel[world]', x=-2.35, y=72.00, z=72.35] died, message: 'Fisherman was pricked to death'
+[19Aug2025 00:52:34.445] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[19Aug2025 00:52:34.446] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[19Aug2025 00:52:34.450] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Waiting to stabilize [2/10]
+[19Aug2025 00:52:34.451] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: No memory leak detected!
+[19Aug2025 00:53:07.945] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _MATUUU_[/100.66.169.30:55901] logged in with entity id 893 at (702.6678887109821, 58.0, -673.5021508126863)
+[19Aug2025 00:53:08.005] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player _MATUUU_
+[19Aug2025 00:53:08.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _MATUUU_ joined the game
+[19Aug2025 00:53:09.219] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of _MATUUU_ (18)
+[19Aug2025 00:53:09.221] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to _MATUUU_
+[19Aug2025 00:53:10.767] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 3feccbe6-7854-3eea-b116-f3435f312333
+[19Aug2025 00:53:11.773] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 3feccbe6-7854-3eea-b116-f3435f312333
+[19Aug2025 00:53:11.773] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player _MATUUU_ (3feccbe6-7854-3eea-b116-f3435f312333) successfully connected to voice chat
+[19Aug2025 00:53:40.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [_MATUUU_: Added kevcito24 to team [Falanje]]
+[19Aug2025 00:54:35.669] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:54:37.254] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:54:37.588] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:54:50.223] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:54:54.674] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:55:06.787] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:56:50.816] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:56:53.303] [Server thread/INFO] [org.berezka.the_lost_city.The_lost_city/]: getJsonMethod
+[19Aug2025 00:57:34.725] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[19Aug2025 00:57:34.727] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[19Aug2025 00:57:34.727] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Waiting to stabilize [1/10]
+[19Aug2025 00:57:34.728] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[19Aug2025 00:57:34.731] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
+[19Aug2025 00:57:34.731] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 1304
+[19Aug2025 01:02:34.496] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[19Aug2025 01:02:34.497] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[19Aug2025 01:02:34.500] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 677MB / C: 684MB / Diff: +7MB
+[19Aug2025 01:02:34.500] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[19Aug2025 01:02:34.500] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
+[19Aug2025 01:02:34.501] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 1317
+[19Aug2025 01:04:37.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevcito24> ZZZ
+[19Aug2025 01:04:40.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <_MATUUU_> ZZZZZZZZZZZZZZZZZZZZ
+[19Aug2025 01:05:39.921] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/21, l='ServerLevel[world]', x=-2.35, y=72.00, z=63.31] died, message: 'Farmer was pricked to death'
