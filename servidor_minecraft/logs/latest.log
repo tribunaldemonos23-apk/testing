@@ -508,3 +508,29 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [19Aug2025 03:00:24.887] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 47fab1b2-80b6-3887-ba44-a750ef02554d
 [19Aug2025 03:00:25.887] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 47fab1b2-80b6-3887-ba44-a750ef02554d
 [19Aug2025 03:00:25.889] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Danben285 (47fab1b2-80b6-3887-ba44-a750ef02554d) successfully connected to voice chat
+[19Aug2025 03:04:34.522] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[19Aug2025 03:04:34.522] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[19Aug2025 03:04:34.522] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 482MB / C: 505MB / Diff: +23MB
+[19Aug2025 03:04:34.522] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: No memory leak detected!
+[19Aug2025 03:08:56.377] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _MATUUU_[/100.66.169.30:53413] logged in with entity id 1774 at (-434.2437482441843, 36.0, 292.4568348553431)
+[19Aug2025 03:08:56.428] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player _MATUUU_
+[19Aug2025 03:08:56.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _MATUUU_ joined the game
+[19Aug2025 03:08:56.695] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of _MATUUU_ (18)
+[19Aug2025 03:08:56.697] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to _MATUUU_
+[19Aug2025 03:08:57.987] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 3feccbe6-7854-3eea-b116-f3435f312333
+[19Aug2025 03:08:58.985] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 3feccbe6-7854-3eea-b116-f3435f312333
+[19Aug2025 03:08:58.986] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player _MATUUU_ (3feccbe6-7854-3eea-b116-f3435f312333) successfully connected to voice chat
+[19Aug2025 03:09:33.259] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2142ms or 42 ticks behind
+[19Aug2025 03:09:38.926] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[19Aug2025 03:09:38.926] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[19Aug2025 03:09:38.926] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 482MB / C: 519MB / Diff: +37MB
+[19Aug2025 03:09:38.926] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: No memory leak detected!
+[19Aug2025 03:12:15.343] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/7, l='ServerLevel[world]', x=-1.84, y=72.00, z=75.18] died, message: 'Fisherman was pricked to death'
+[19Aug2025 03:14:36.680] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[19Aug2025 03:14:36.681] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[19Aug2025 03:14:36.684] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 482MB / C: 527MB / Diff: +45MB
+[19Aug2025 03:14:36.684] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: No memory leak detected!
+[19Aug2025 03:19:36.782] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[19Aug2025 03:19:36.783] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[19Aug2025 03:19:36.784] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 482MB / C: 542MB / Diff: +60MB
+[19Aug2025 03:19:36.784] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: No memory leak detected!
