@@ -17,11 +17,13 @@
       "minecraft:frozen_river": "2025-08-16 23:58:22 +0000",
       "minecraft:birch_forest": "2025-08-18 04:14:50 +0000",
       "minecraft:windswept_hills": "2025-08-17 01:37:00 +0000",
+      "minecraft:beach": "2025-08-19 01:06:48 +0000",
       "minecraft:river": "2025-08-17 02:48:22 +0000",
       "minecraft:snowy_plains": "2025-08-16 23:47:25 +0000",
       "minecraft:snowy_taiga": "2025-08-16 23:58:20 +0000",
       "minecraft:dripstone_caves": "2025-08-17 04:03:25 +0000",
       "minecraft:swamp": "2025-08-17 02:31:55 +0000",
+      "minecraft:cold_ocean": "2025-08-19 01:06:50 +0000",
       "minecraft:forest": "2025-08-17 02:10:37 +0000",
       "minecraft:ice_spikes": "2025-08-17 00:41:58 +0000",
       "minecraft:frozen_ocean": "2025-08-17 01:36:41 +0000",
@@ -3791,6 +3793,72 @@
   "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
       "has_log": "2025-08-18 03:42:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-08-19 01:11:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-08-19 01:11:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-08-19 01:11:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-08-19 01:11:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-08-19 01:11:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2025-08-19 01:11:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-08-19 01:11:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-08-19 01:11:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-08-19 01:11:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-08-19 01:11:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-08-19 01:11:13 +0000"
     },
     "done": true
   },
