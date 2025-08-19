@@ -654,3 +654,37 @@ dev.uncandango.alltheleaks.exceptions.ATLIllegalState: Cannot have null removal 
 [19Aug2025 02:34:14.297] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 2054
 [19Aug2025 02:34:14.297] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
 [19Aug2025 02:34:14.298] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 2
+[19Aug2025 02:38:20.821] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[19Aug2025 02:38:43.788] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7990ms or 159 ticks behind
+[19Aug2025 02:39:06.128] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[19Aug2025 02:39:16.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <itstomii_> mañana sigo cn mover mis items
+[19Aug2025 02:39:19.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <itstomii_> tengo un sueño
+[19Aug2025 02:39:20.817] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: itstomii_ lost connection: Disconnected
+[19Aug2025 02:39:20.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: itstomii_ left the game
+[19Aug2025 02:39:20.819] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client itstomii_
+[19Aug2025 02:39:26.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Danben285> q me importa put
+[19Aug2025 02:39:26.330] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[19Aug2025 02:39:26.331] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Clone: 1
+[19Aug2025 02:39:26.331] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]:   Invalid Cloned Players: 1
+[19Aug2025 02:39:26.332] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 2
+[19Aug2025 02:39:26.332] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[19Aug2025 02:39:26.332] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 579MB / C: 1055MB / Diff: +476MB
+[19Aug2025 02:39:26.332] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[19Aug2025 02:39:26.332] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
+[19Aug2025 02:39:26.332] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 3325
+[19Aug2025 02:39:26.332] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
+[19Aug2025 02:39:26.332] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 3
+[19Aug2025 02:40:42.000] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _MATUUU_ lost connection: Disconnected
+[19Aug2025 02:40:42.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _MATUUU_ left the game
+[19Aug2025 02:40:42.002] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client _MATUUU_
+[19Aug2025 02:44:26.204] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing events...
+[19Aug2025 02:44:26.204] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Clone: 1
+[19Aug2025 02:44:26.204] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]:   Invalid Cloned Players: 1
+[19Aug2025 02:44:26.204] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Server Player Logout: 3
+[19Aug2025 02:44:26.205] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Listing memory leaks so far...
+[19Aug2025 02:44:26.205] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: B: 579MB / C: 1068MB / Diff: +489MB
+[19Aug2025 02:44:26.205] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[19Aug2025 02:44:26.205] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | ChunkAccess:
+[19Aug2025 02:44:26.205] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- LevelChunk (minecraft): 4223
+[19Aug2025 02:44:26.205] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: | Player:
+[19Aug2025 02:44:26.205] [Server thread/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: |- ServerPlayer (minecraft): 4
